@@ -1,5 +1,5 @@
 var IRClient = require('irc').Client;
-var Sandbox = require('Sandbox');
+var Sandbox = require('sandbox');
 sandbox = new Sandbox();
 
 clientConfig = {
