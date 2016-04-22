@@ -1,28 +1,14 @@
 {
-  "name": "JSRunner",
-  "version": "0.0.1",
-  "description": "JSRunner",
+  "name": "jsrunner",
   "main": "runner.js",
   "scripts": {
-    "test": "true"
+    "start": "node runner.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/usandfriends/JSRunner.git"
-  },
-  "keywords": [
-    "JSRunner"
-  ],
-  "author": "usandfriends",
-  "license": "",
-  "bugs": {
-    "url": "https://github.com/usandfriends/JSRunner/issues"
-  },
-  "homepage": "https://github.com/usandfriends/JSRunner",
+  "author": "Usandfriends <usandfriends@gmail.com>",
   "dependencies": {
-    "colors": "^1.0.3",
-    "irc": "^0.3.7",
-    "moment": "^2.8.4",
-    "sandbox": "^0.8.6"
+    "coffee-script": "^1.10.0",
+    "irc": "^0.5.0",
+    "sandbox": "^0.8.6",
+    "typescript": "^1.8.10"
   }
 }

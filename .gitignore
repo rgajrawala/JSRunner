@@ -1,21 +1,10 @@
 ##########
-# OSX
+# Custom
 ##########
-.DS_Store
-.AppleDouble
-.LSOverride
-Icon
-._*
-.Spotlight-V100
-.Trashes
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+config.js
 
 ##########
-# Node
+# Node.js
 ##########
 logs
 *.log
@@ -28,6 +17,48 @@ coverage
 build/Release
 node_modules
 .lock-wscript
+
+##########
+# OS X
+##########
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+##########
+# Linux
+##########
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+##########
+# Windows
+##########
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
 
 ##########
 # Sublime
